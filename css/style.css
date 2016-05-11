@@ -38,9 +38,6 @@ ul {
 
 /*Left*/
 
-.tLeft {
-	margin-left: 200px;
-	}
 .tLeft ul{
 	float:left;
 	padding-top: 7px;
@@ -66,9 +63,7 @@ ul {
 }
 /*Right*/
 
-.tRight {
-	margin-right: 150px; 
-}
+
 .tRight ul {
 	float: right;
 	margin-top: 5px;
@@ -108,12 +103,7 @@ ul {
 .mLeft img{
 	float: left;
 	padding-top:20px;
-	margin-left: 200px;
 	
-}
-.mRight{
-	
-	margin-right: 120px
 }
 .mRight ul{
 float: right;
@@ -165,12 +155,12 @@ float: right;
 	clear: both;
 	width: 100%;
 	height: 100px;
+	margin-bottom: 20px;
 	background-image: url('../images/baner.png');
 }
 
 .bLeft{
 	float: left;
-	margin-left: 200px;
 	margin-top: 25px;
 }
 
@@ -180,7 +170,6 @@ float: right;
 }
 .bRight {
 	float: right;
-	margin-right: 200px;
 	margin-top: 35px;
 }
 .bRight a{
@@ -192,11 +181,9 @@ float: right;
 	color:#0000FF;
 }
 /*Begin Main*/
-#main {
-	margin-top: 39px;
-	margin-left: 200px;
-	margin-right: 200px;
-	margin-bottom: 160px;
+.main {
+	margin: auto;
+	width: 1000px;
 	overflow: auto;
 }
 #content {
@@ -315,16 +302,17 @@ float: right;
 	font-size: 12px;
 	color: #cdcdcd;
 }
+#footer {
+	margin-top: 160px;*/
+}
 /*End Main*/
 #footer1{
 	background-color: #ffffff;
 	height: 150px;
-	padding-left: 200px;
 	
 }
 #footer1 img{
-	padding-right: 50px;
-	
+	padding-right: 30px;
 	padding-top: 30px;
 }
 #footer2{
@@ -337,7 +325,7 @@ float: right;
 }
 .f3Left {
 	float: left;
-	margin-left: 150px;
+	margin-left: 10px;
 	margin-top: 30px;
 }
 .f3Left p{
@@ -373,6 +361,8 @@ float: right;
 
 .f3Right {
 	float:right;
-	margin-left: 200px;
+	margin-left: 20px;
 }
+
+
 

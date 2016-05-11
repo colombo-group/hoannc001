@@ -157,6 +157,7 @@ float: right;
 	height: 100px;
 	margin-bottom: 20px;
 	background-image: url('../images/baner.png');
+	background-size: 100%;
 }
 
 .bLeft{
@@ -362,6 +363,9 @@ float: right;
 .f3Right {
 	float:right;
 	margin-left: 20px;
+}
+.f3Right img{
+	width: 100%;
 }
 
 

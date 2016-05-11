@@ -1,9 +1,10 @@
+/*Reset CSS*/
 * {
 	margin: 0;
 	padding: 0;
 }
 
-
+/*Style base*/
 img {
 	border: none;
 	vertical-align: middle;
@@ -133,6 +134,31 @@ float: right;
 
 .mRight ul li a:hover{
 	color: #0000FF;
+}
+/*Style for sub-menu*/
+.sub-menu {
+	display: none;
+ 	position: absolute;
+ 	background-image: url('../images/background-sub.png');
+    /*min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;*/
+}
+.sub-menu img{
+	float: left;
+}
+.sub-menu ul {
+	float: right;
+}
+.sub-menu li {
+	/*display: none;*/
+	margin-right: 0 !important;
+}
+#menu li{
+	position: relative;
+}
+#menu li:hover .sub-menu{
+	display: block;
 }
 /*Banner*/
 #baner{
@@ -308,11 +334,11 @@ float: right;
 #footer3{
 	background-color: #0f75bc;
 	height: 200px;
-	padding-left: 150px;
-	padding-top: 30px;
 }
 .f3Left {
 	float: left;
+	margin-left: 150px;
+	margin-top: 30px;
 }
 .f3Left p{
 	color: #dddddd;
@@ -347,6 +373,6 @@ float: right;
 
 .f3Right {
 	float:right;
-	margin-right: 200px;
+	margin-left: 200px;
 }
 

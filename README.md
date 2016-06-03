@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # trainee001 Nguyễn Công Hoan
+=======
+# trainee001
+>>>>>>> 8039926b0f2cb752a21774a736b162127d079507
 Repo bài tập 1 cho thực tập
 
 Xem file [Hướng dẫn](https://github.com/colombo-trainee/trainee001/blob/master/requirements/hướng%20dẫn.md) để thực hiện
